@@ -1,0 +1,19 @@
+html {
+    height: 100vh;
+} 
+
+body {
+    height: 100vh;
+}
+
+.bg-violet {
+    background-color: #6e6ee6;
+}
+
+.bg-lightviolet {
+    background-color: #adadff;
+}
+
+.bg-darkviolet {
+    background-color:#7b7ecb;
+}
