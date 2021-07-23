@@ -21,34 +21,24 @@
                       <label for="bookAuthor" class="form-label">Book's author</label>
                       <input type="text" class="form-control" id="bookAuthor">
                     </div>
-                    <button type="submit" class="btn btn-success">Add</button>
+                    <button type="submit" id="saveButton" class="btn btn-success">Add</button>
                   </form>
             </div>
             <div class="col-md-8 pt-5 bg-lightviolet">
-                <table class="table table-striped bg-light">
+                <table class="table table-striped bg-light" id="booksTable">
                     <thead class="mx-5">
                       <tr class="bg-darkviolet text-white">
                         <th scope="col">Title</th>
                         <th scope="col">Author</th>
-                        <th scope="col">Options</th>
+                        <th scope="col">Actions</th>
                       </tr>
                     </thead>
-                    <tbody>
-                      <tr>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                    </tbody>
+                    <tbody></tbody>
                   </table>
             </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="books.list.js"></script>
 </body>
 </html>
