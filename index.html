@@ -12,14 +12,14 @@
     <div class="container-fluid h-100">
         <div class="row h-100">
             <div class="col-md-4 h-100 pt-5 bg-violet text-white">
-                <form class="px-5">
+                <form class="px-5 needs-validation" novalidate>
                     <div class="mb-3">
                       <label for="bookTitle" class="form-label">Book's title</label>
-                      <input type="text" class="form-control" id="bookTitle">
+                      <input type="text" class="form-control" id="bookTitle" required>
                     </div>
                     <div class="mb-3">
                       <label for="bookAuthor" class="form-label">Book's author</label>
-                      <input type="text" class="form-control" id="bookAuthor">
+                      <input type="text" class="form-control" id="bookAuthor" required>
                     </div>
                     <button type="submit" id="saveButton" class="btn btn-success">Add</button>
                   </form>
